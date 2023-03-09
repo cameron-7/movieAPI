@@ -1,0 +1,135 @@
+body {
+ width: 100vw;
+ height: 100vh;
+}
+
+
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.search-text {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.head-title {
+  font-size: 2rem;
+  position: relative;
+  display: block;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 1.5rem;
+  cursor: pointer;
+  padding-bottom: 1.5rem;
+}
+
+#scrape {
+  color: 	#DC143C;
+  font-family:  Roboto;
+  font-size: 2rem;
+}
+
+#logo-main {
+  border: solid	#DC143C 3px;;
+  border-radius: 18px;
+  padding: 8px;
+
+}
+
+#movie-logo {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+h4 {
+  display: inline-block;
+}
+
+.hero-body {
+  background-color: rgb(255, 255, 255);
+  border-top: solid 5px #DC143C;
+}
+
+article {
+  background-color: white;
+  border: black 5px solid;
+}
+
+article p {
+  padding: 0;
+  margin: 0;
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+  color: black;
+  font-family:  Roboto;
+}
+
+.content h1 {
+  color: black;
+  margin-left: 1.2rem;
+  margin-top: 10px;
+}
+
+.content h4 {
+  color: black;
+  margin-left: 1.2rem;
+}
+
+.media-left {
+  margin: 0;
+  padding: 0;
+  margin-right: -20px;
+}
+
+.notification.is-primary {
+ background-color:	#DC143C;
+ border: solid black 5px;
+}
